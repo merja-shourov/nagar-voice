@@ -1,5 +1,5 @@
 {
-  "homepage": "https://merja-shourov.github.io/nagar-voice",
+  "homepage": "https://merja-shourov.github.io/nagar-voice/",
   "name": "nagarvoice",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
