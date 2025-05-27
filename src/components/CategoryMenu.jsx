@@ -5,8 +5,8 @@ import App from '../App'
 
 const CategoryMenu = () => {
   return (
-    <div id='category-menu' className='w-4/5 m-auto'>
-        <div className="flex justify-center items-center gap-5 text-xl font-[500]">
+    <div id='category-menu' className='w-full py-1 bg-gray-800 text-white'>
+        <div className="w-full flex justify-center items-center gap-5 text-xl font-[500]">
             <Link to="/" > <i class="fa-solid fa-house"></i> </Link>
             <Link className='border-b-2 border-transparent hover:border-b-2 hover:border-blue-600 transition delay-150' to="/all-news" > সর্বশেষ </Link>
             <Link className='border-b-2 border-transparent hover:border-b-2 hover:border-blue-600 transition delay-150' to="/national" > জাতীয় </Link>
