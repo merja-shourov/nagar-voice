@@ -1,5 +1,5 @@
 {
-  "homepage": "https://merja-shourov.github.io/nagar-voice/",
+  "homepage": "https://github.com/merja-shourov/nagar-voice.git",
   "name": "nagarvoice",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,7 @@
     "preview": "vite preview",
     
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"  
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
