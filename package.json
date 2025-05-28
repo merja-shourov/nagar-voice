@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/merja-shourov/nagar-voice.git",
   "name": "nagarvoice",
+  "homepage": "https://github.com/merja-shourov/nagar-voice.git/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
