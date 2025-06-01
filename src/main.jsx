@@ -4,7 +4,6 @@ import { BrowserRouter,  Route, RouterProvider } from 'react-router-dom'
 import './index.css'
 import App from './App'
 
-
 // const router = createBrowserRouter([
 //   {
 //     path: '/',
@@ -54,8 +53,6 @@ import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <RouterProvider router={router} /> */}
-    
     <BrowserRouter>
       <App />
     </BrowserRouter>

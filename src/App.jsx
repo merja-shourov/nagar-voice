@@ -13,12 +13,14 @@ import Religion from './pages/Religion.jsx'
 import VideoGallery from './pages/VideoGallery.jsx'
 import Sports from './pages/Sports.jsx'
 import Home from './pages/Home.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
   return (
     <div className=''>
       <Header />
+
       <div className="container">
         <Routes>
           <Route path='/' Component={Home}></Route>
@@ -34,6 +36,8 @@ function App() {
           <Route path='/video-gallery' Component={VideoGallery} ></Route>
         </Routes>
       </div>
+
+      {/* <Footer /> */}
     </div>
   )
 }
